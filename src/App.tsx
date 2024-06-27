@@ -8,6 +8,7 @@ import { calcImc, levels, Level } from './helpers/imc';
 import { Levels } from './components/Levels';
 import { injectStyle } from 'react-toastify/dist/inject-style';
 import { ToastContainer, toast } from 'react-toastify';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   const [height, setHeight] = useState<number>(0);
@@ -42,6 +43,7 @@ const App = () => {
       <main className={styles.container}>
         <section className={styles.leftSide}>
           <ToastContainer />
+          <Analytics />
           <h1>Calcule o seu IMC.</h1>
           <p>
             O aplicativo IMC é uma ferramenta desenvolvida para ajudar pessoas a
