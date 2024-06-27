@@ -1,0 +1,41 @@
+.levelStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.625rem;
+  color: #fff;
+}
+
+.levelTitleStyle {
+  margin-top: 0.3125rem;
+}
+
+.levelIconStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.levelIconStyle img {
+  width: 1.875rem;
+}
+
+.levelInfosStyle {
+  font-size: 0.75rem;
+}
+
+.yourImc {
+  font-size: 1.0625rem;
+  margin: 0.625rem 0 3.125rem 0;
+}
+
+@media (max-width: 56.25rem) {
+  .levelStyle {
+    padding: 10px;
+  }
+}

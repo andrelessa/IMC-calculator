@@ -1,0 +1,20 @@
+.btnStyle {
+  background-color: #7DB1CF;
+  color: #fff;
+  font-size: 0.9375rem;
+  border: none;
+  border-radius: 0.625rem;
+  padding: 0.9375rem 0;
+  width: 100%;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  margin-top: 2.0rem;
+}
+
+.btnStyle:hover {
+  opacity: 0.8;
+}
+
+.btnStyle:disabled {
+  opacity: 0.5;
+}
